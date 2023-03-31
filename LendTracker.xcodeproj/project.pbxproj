@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1500E4EA29D6E786002817C5 /* LendTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4E929D6E786002817C5 /* LendTrackerApp.swift */; };
-		1500E4EC29D6E786002817C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4EB29D6E786002817C5 /* ContentView.swift */; };
 		1500E4EE29D6E787002817C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1500E4ED29D6E787002817C5 /* Assets.xcassets */; };
 		1500E4F129D6E787002817C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1500E4F029D6E787002817C5 /* Preview Assets.xcassets */; };
 		1500E4FB29D6E787002817C5 /* LendTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4FA29D6E787002817C5 /* LendTrackerTests.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		1500E4E629D6E786002817C5 /* LendTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1500E4E929D6E786002817C5 /* LendTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerApp.swift; sourceTree = "<group>"; };
-		1500E4EB29D6E786002817C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1500E4ED29D6E787002817C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1500E4F029D6E787002817C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1500E4F629D6E787002817C5 /* LendTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				1500E4E929D6E786002817C5 /* LendTrackerApp.swift */,
-				1500E4EB29D6E786002817C5 /* ContentView.swift */,
 				1500E4ED29D6E787002817C5 /* Assets.xcassets */,
 				1500E4EF29D6E787002817C5 /* Preview Content */,
 				1500E51929D708ED002817C5 /* Login */,
@@ -298,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1500E4EC29D6E786002817C5 /* ContentView.swift in Sources */,
 				1500E4EA29D6E786002817C5 /* LendTrackerApp.swift in Sources */,
 				1500E51629D6EB18002817C5 /* LoginView.swift in Sources */,
 				1500E51829D6EB92002817C5 /* LoginViewModel.swift in Sources */,
