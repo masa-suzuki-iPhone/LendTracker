@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1500E4EA29D6E786002817C5 /* LendTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4E929D6E786002817C5 /* LendTrackerApp.swift */; };
+		1500E4EC29D6E786002817C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4EB29D6E786002817C5 /* ContentView.swift */; };
+		1500E4EE29D6E787002817C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1500E4ED29D6E787002817C5 /* Assets.xcassets */; };
+		1500E4F129D6E787002817C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1500E4F029D6E787002817C5 /* Preview Assets.xcassets */; };
+		1500E4FB29D6E787002817C5 /* LendTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4FA29D6E787002817C5 /* LendTrackerTests.swift */; };
+		1500E50529D6E787002817C5 /* LendTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E50429D6E787002817C5 /* LendTrackerUITests.swift */; };
+		1500E50729D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E50629D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift */; };
+		1500E51429D6EAF7002817C5 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51329D6EAF7002817C5 /* LoginData.swift */; };
+		1500E51629D6EB18002817C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51529D6EB18002817C5 /* LoginView.swift */; };
+		1500E51829D6EB92002817C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51729D6EB92002817C5 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1500E4F729D6E787002817C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1500E4DE29D6E786002817C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1500E4E529D6E786002817C5;
+			remoteInfo = LendTracker;
+		};
+		1500E50129D6E787002817C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1500E4DE29D6E786002817C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1500E4E529D6E786002817C5;
+			remoteInfo = LendTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1500E4E629D6E786002817C5 /* LendTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1500E4E929D6E786002817C5 /* LendTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerApp.swift; sourceTree = "<group>"; };
+		1500E4EB29D6E786002817C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1500E4ED29D6E787002817C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1500E4F029D6E787002817C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1500E4F629D6E787002817C5 /* LendTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1500E4FA29D6E787002817C5 /* LendTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerTests.swift; sourceTree = "<group>"; };
+		1500E50029D6E787002817C5 /* LendTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1500E50429D6E787002817C5 /* LendTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerUITests.swift; sourceTree = "<group>"; };
+		1500E50629D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1500E51329D6EAF7002817C5 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		1500E51529D6EB18002817C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1500E51729D6EB92002817C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1500E4E329D6E786002817C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4F329D6E787002817C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4FD29D6E787002817C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1500E4DD29D6E786002817C5 = {
+			isa = PBXGroup;
+			children = (
+				1500E4E829D6E786002817C5 /* LendTracker */,
+				1500E4F929D6E787002817C5 /* LendTrackerTests */,
+				1500E50329D6E787002817C5 /* LendTrackerUITests */,
+				1500E4E729D6E786002817C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1500E4E729D6E786002817C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1500E4E629D6E786002817C5 /* LendTracker.app */,
+				1500E4F629D6E787002817C5 /* LendTrackerTests.xctest */,
+				1500E50029D6E787002817C5 /* LendTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1500E4E829D6E786002817C5 /* LendTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1500E4E929D6E786002817C5 /* LendTrackerApp.swift */,
+				1500E4EB29D6E786002817C5 /* ContentView.swift */,
+				1500E4ED29D6E787002817C5 /* Assets.xcassets */,
+				1500E4EF29D6E787002817C5 /* Preview Content */,
+				1500E51929D708ED002817C5 /* Login */,
+			);
+			path = LendTracker;
+			sourceTree = "<group>";
+		};
+		1500E4EF29D6E787002817C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1500E4F029D6E787002817C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1500E4F929D6E787002817C5 /* LendTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1500E4FA29D6E787002817C5 /* LendTrackerTests.swift */,
+			);
+			path = LendTrackerTests;
+			sourceTree = "<group>";
+		};
+		1500E50329D6E787002817C5 /* LendTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1500E50429D6E787002817C5 /* LendTrackerUITests.swift */,
+				1500E50629D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift */,
+			);
+			path = LendTrackerUITests;
+			sourceTree = "<group>";
+		};
+		1500E51929D708ED002817C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1500E51A29D708F8002817C5 /* Model */,
+				1500E51B29D7090C002817C5 /* View */,
+				1500E51C29D70916002817C5 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1500E51A29D708F8002817C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1500E51329D6EAF7002817C5 /* LoginData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1500E51B29D7090C002817C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1500E51529D6EB18002817C5 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1500E51C29D70916002817C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1500E51729D6EB92002817C5 /* LoginViewModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1500E4E529D6E786002817C5 /* LendTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1500E50A29D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTracker" */;
+			buildPhases = (
+				1500E4E229D6E786002817C5 /* Sources */,
+				1500E4E329D6E786002817C5 /* Frameworks */,
+				1500E4E429D6E786002817C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LendTracker;
+			productName = LendTracker;
+			productReference = 1500E4E629D6E786002817C5 /* LendTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1500E4F529D6E787002817C5 /* LendTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1500E50D29D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTrackerTests" */;
+			buildPhases = (
+				1500E4F229D6E787002817C5 /* Sources */,
+				1500E4F329D6E787002817C5 /* Frameworks */,
+				1500E4F429D6E787002817C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1500E4F829D6E787002817C5 /* PBXTargetDependency */,
+			);
+			name = LendTrackerTests;
+			productName = LendTrackerTests;
+			productReference = 1500E4F629D6E787002817C5 /* LendTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1500E4FF29D6E787002817C5 /* LendTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1500E51029D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTrackerUITests" */;
+			buildPhases = (
+				1500E4FC29D6E787002817C5 /* Sources */,
+				1500E4FD29D6E787002817C5 /* Frameworks */,
+				1500E4FE29D6E787002817C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1500E50229D6E787002817C5 /* PBXTargetDependency */,
+			);
+			name = LendTrackerUITests;
+			productName = LendTrackerUITests;
+			productReference = 1500E50029D6E787002817C5 /* LendTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1500E4DE29D6E786002817C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1500E4E529D6E786002817C5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1500E4F529D6E787002817C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1500E4E529D6E786002817C5;
+					};
+					1500E4FF29D6E787002817C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1500E4E529D6E786002817C5;
+					};
+				};
+			};
+			buildConfigurationList = 1500E4E129D6E786002817C5 /* Build configuration list for PBXProject "LendTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1500E4DD29D6E786002817C5;
+			productRefGroup = 1500E4E729D6E786002817C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1500E4E529D6E786002817C5 /* LendTracker */,
+				1500E4F529D6E787002817C5 /* LendTrackerTests */,
+				1500E4FF29D6E787002817C5 /* LendTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1500E4E429D6E786002817C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E4F129D6E787002817C5 /* Preview Assets.xcassets in Resources */,
+				1500E4EE29D6E787002817C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4F429D6E787002817C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4FE29D6E787002817C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1500E4E229D6E786002817C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E4EC29D6E786002817C5 /* ContentView.swift in Sources */,
+				1500E4EA29D6E786002817C5 /* LendTrackerApp.swift in Sources */,
+				1500E51629D6EB18002817C5 /* LoginView.swift in Sources */,
+				1500E51829D6EB92002817C5 /* LoginViewModel.swift in Sources */,
+				1500E51429D6EAF7002817C5 /* LoginData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4F229D6E787002817C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E4FB29D6E787002817C5 /* LendTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1500E4FC29D6E787002817C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E50729D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift in Sources */,
+				1500E50529D6E787002817C5 /* LendTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1500E4F829D6E787002817C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1500E4E529D6E786002817C5 /* LendTracker */;
+			targetProxy = 1500E4F729D6E787002817C5 /* PBXContainerItemProxy */;
+		};
+		1500E50229D6E787002817C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1500E4E529D6E786002817C5 /* LendTracker */;
+			targetProxy = 1500E50129D6E787002817C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1500E50829D6E787002817C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1500E50929D6E787002817C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1500E50B29D6E787002817C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LendTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1500E50C29D6E787002817C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LendTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1500E50E29D6E787002817C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LendTracker";
+			};
+			name = Debug;
+		};
+		1500E50F29D6E787002817C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LendTracker";
+			};
+			name = Release;
+		};
+		1500E51129D6E787002817C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LendTracker;
+			};
+			name = Debug;
+		};
+		1500E51229D6E787002817C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD35WUVMY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbmasayoshi.LendTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LendTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1500E4E129D6E786002817C5 /* Build configuration list for PBXProject "LendTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E50829D6E787002817C5 /* Debug */,
+				1500E50929D6E787002817C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1500E50A29D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E50B29D6E787002817C5 /* Debug */,
+				1500E50C29D6E787002817C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1500E50D29D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E50E29D6E787002817C5 /* Debug */,
+				1500E50F29D6E787002817C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1500E51029D6E787002817C5 /* Build configuration list for PBXNativeTarget "LendTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E51129D6E787002817C5 /* Debug */,
+				1500E51229D6E787002817C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1500E4DE29D6E786002817C5 /* Project object */;
+}
