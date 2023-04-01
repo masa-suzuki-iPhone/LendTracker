@@ -77,7 +77,7 @@ struct LoginView: View {
         .alert(isPresented: $viewModel.showAlert) {
             Alert(
                 title: Text("エラー"),
-                message: Text(viewModel.errorMessage ?? "未知のエラーが発生しました"),
+                message: Text(viewModel.errorMessage ),
                 dismissButton: .default(Text("OK")) {
                     viewModel.showAlert = false
                 }

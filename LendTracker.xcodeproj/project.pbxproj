@@ -13,7 +13,6 @@
 		1500E4FB29D6E787002817C5 /* LendTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E4FA29D6E787002817C5 /* LendTrackerTests.swift */; };
 		1500E50529D6E787002817C5 /* LendTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E50429D6E787002817C5 /* LendTrackerUITests.swift */; };
 		1500E50729D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E50629D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift */; };
-		1500E51429D6EAF7002817C5 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51329D6EAF7002817C5 /* LoginData.swift */; };
 		1500E51629D6EB18002817C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51529D6EB18002817C5 /* LoginView.swift */; };
 		1500E51829D6EB92002817C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E51729D6EB92002817C5 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		1500E50029D6E787002817C5 /* LendTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1500E50429D6E787002817C5 /* LendTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerUITests.swift; sourceTree = "<group>"; };
 		1500E50629D6E787002817C5 /* LendTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1500E51329D6EAF7002817C5 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
 		1500E51529D6EB18002817C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1500E51729D6EB92002817C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,35 +133,10 @@
 		1500E51929D708ED002817C5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				1500E51A29D708F8002817C5 /* Model */,
-				1500E51B29D7090C002817C5 /* View */,
-				1500E51C29D70916002817C5 /* ViewModel */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		1500E51A29D708F8002817C5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1500E51329D6EAF7002817C5 /* LoginData.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1500E51B29D7090C002817C5 /* View */ = {
-			isa = PBXGroup;
-			children = (
 				1500E51529D6EB18002817C5 /* LoginView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1500E51C29D70916002817C5 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
 				1500E51729D6EB92002817C5 /* LoginViewModel.swift */,
 			);
-			path = ViewModel;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		155915B129D727C400738983 /* SignUp */ = {
@@ -306,7 +279,6 @@
 				1500E4EA29D6E786002817C5 /* LendTrackerApp.swift in Sources */,
 				1500E51629D6EB18002817C5 /* LoginView.swift in Sources */,
 				1500E51829D6EB92002817C5 /* LoginViewModel.swift in Sources */,
-				1500E51429D6EAF7002817C5 /* LoginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
