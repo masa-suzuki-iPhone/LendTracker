@@ -42,13 +42,7 @@ struct LoginView: View {
                 }
                 
                 Button(action: {
-                    viewModel.login { success in
-                        if success {
-                            // ログイン成功時の処理（次の画面へ遷移）
-                        } else {
-                            // ログイン失敗時の処理（エラーメッセージ表示）
-                        }
-                    }
+                    viewModel.login()
                 }) {
                     Text("ログイン")
                         .frame(maxWidth: .infinity)
@@ -80,8 +74,17 @@ struct LoginView: View {
         .onTapGesture {
             UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         }
+        .alert(isPresented: $viewModel.showAlert) {
+            Alert(
+                title: Text("エラー"),
+                message: Text(viewModel.errorMessage ?? "未知のエラーが発生しました"),
+                dismissButton: .default(Text("OK")) {
+                    viewModel.showAlert = false
+                }
+            )
+        }
     }
-
+    
 }
 
 struct LoginView_Previews: PreviewProvider {

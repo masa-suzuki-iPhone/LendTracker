@@ -101,6 +101,7 @@
 				1500E4E929D6E786002817C5 /* LendTrackerApp.swift */,
 				1500E4ED29D6E787002817C5 /* Assets.xcassets */,
 				1500E4EF29D6E787002817C5 /* Preview Content */,
+				155915B129D727C400738983 /* SignUp */,
 				1500E51929D708ED002817C5 /* Login */,
 			);
 			path = LendTracker;
@@ -136,7 +137,7 @@
 			children = (
 				1500E51A29D708F8002817C5 /* Model */,
 				1500E51B29D7090C002817C5 /* View */,
-				1500E51C29D70916002817C5 /* Controller */,
+				1500E51C29D70916002817C5 /* ViewModel */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -157,12 +158,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		1500E51C29D70916002817C5 /* Controller */ = {
+		1500E51C29D70916002817C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				1500E51729D6EB92002817C5 /* LoginViewModel.swift */,
 			);
-			path = Controller;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		155915B129D727C400738983 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
